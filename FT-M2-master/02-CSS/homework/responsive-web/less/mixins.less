@@ -1,1 +1,11 @@
 // Mixins acá
+.flex(@type:flex, @direction:column, @align:center) {
+  display: @type;
+  flex-direction: @direction;
+  align-items: @align;
+}
+
+.border(@width: 0px, @radius:20px) {
+  border: @width;
+  border-radius: @radius;
+}
